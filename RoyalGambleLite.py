@@ -5,13 +5,13 @@
 # This script generates a muilti-model sdf file
 # The number of prepared structures provided by the var => number_of_structures
 # The current revision introduces two different strategies to select the chemical rings from the ring pool (ring_smiles)
-# Finally after creation script introduce three filterins strategies applied on crafts
+# Finally after creation script introduce three filterins strategies applied on the crafts
 # (e.g. to discard crafts contained identical rings etc)
 #
 # Two random strategies for ring selection:
 # 🌀 Strategy 1: Pure Randomness:
 # the rings are selected randomly from the pool using random.choice
-# 🎲 Strategy 2: Bluff-Spin Selector (activated by bull Casino)
+# 🎲 Strategy 2: Bluff-Spin Selector (activated by the casino_switch)
 # Inspired by casino bluffing, the function (bluff_spin()) adds a twist of an additional stochasticity
 #
 # You are free to specify which ring positions use the casino-style selector and which ones follow the straight-random approach,
