@@ -1,4 +1,4 @@
-🔭🐍 The lattest chemoinformatics development - Royal Gamble Lite - unfolding novel drug spaces through the principles of cosmic star creation. ✨ 
+🔭🐍 The lattest development - Royal Gamble Lite - unfolding novel drug spaces through the principles of cosmic star creation. ✨ 
 
 
 🎲 Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the randomness of the cosmos—and a dash of casino bluffing—it generates combinatorial molecules with optional chiral centers, random ring assembly, and structure filters.
