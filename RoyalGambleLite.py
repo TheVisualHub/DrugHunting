@@ -1,6 +1,6 @@
-# 🔮✨ the Royal Gamble Lite (ver 1.07 demo):
+# 🔮✨ the Royal Gamble Lite (ver 1.08 demo):
 # Last update 5/06/2025: 
-# The LITE version creates a simple 3 ring linear molecules optionally joined by chiral carbons (chiral_switch=1..3)
+# The LITE version creates random three-ring linear molecules optionally joined by chiral carbons (chiral_switch=1..3)
 # Conceptualized, coded and benchmarked by Gleb Novikov
 # This script generates a muilti-model sdf file
 # The number of prepared structures provided by the var => number_of_structures
