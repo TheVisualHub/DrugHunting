@@ -4,8 +4,8 @@
 
 By blending stochastic principles with cheminformatics expertise, these Python scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made algorithms, designed for:
 
-- 🔄 Molecular format conversion (example SMILES →  SDF or PDB) with **geometry optimization**  
-- 💊 Designing drug-like molecules ready for docking and virtual screening
+🔄 Molecular format conversion (example SMILES →  SDF or PDB) with **geometry optimization**  
+💊 Designing drug-like molecules ready for docking and virtual screening
 
 Most scripts utilize the **RDKit** package — install it easily with:
 
