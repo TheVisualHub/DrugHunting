@@ -3,7 +3,7 @@
 # 🔬 Welcome to the Chemoinformatics repository 
 
 
-By blending stochastic principles with cheminformatics expertise, these scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made Python scripts, designed for:
+By blending stochastic principles with cheminformatics expertise, these Python scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made algorithms, designed for:
 
 - 🔄 Molecular format conversion (example SMILES →  SDF or PDB) with **geometry optimization**  
 - 💊 Designing drug-like molecules ready for docking and virtual screening
