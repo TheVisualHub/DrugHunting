@@ -3,10 +3,10 @@
 🔭🐍 Fresh code - Royal Gamble Lite - unfolding novel drug spaces guided by the principles of star formation. ✨ 
 
 <!-- Chemoinfo Logo at 50% width -->
-<p align="left">
-  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo.jpg" alt="Logo 1" width="45%">
+<p align="center">
+  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo.jpg" alt="Logo 1" width="50%">
   &nbsp; <!-- optional spacing -->
-  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo.jpg" alt="Logo 2" width="45%">
+  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo.jpg" alt="Logo 2" width="50%">
 </p>
 
 
