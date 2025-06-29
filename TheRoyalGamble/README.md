@@ -1,11 +1,6 @@
 🎰 Designing drug-like molecules using combinatorics inspired by casino models to unfold novel chemical spaces 💊  
 
-[![Watch the video](https://img.youtube.com/vi/rwLljmX3orI/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwLljmX3orI)
-
-<a href="https://www.youtube.com/watch?v=rwLljmX3orI">
-  <img src="https://img.youtube.com/vi/rwLljmX3orI/maxresdefault.jpg" style="transform: scale(1.2);">
-</a>
-
+[![Watch the video](https://img.youtube.com/vi/hw-rsa7_ofU/maxresdefault.jpg)](https://www.youtube.com/watch?v=hw-rsa7_ofU)
 
 🎲 The Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters.
 
