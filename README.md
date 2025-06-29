@@ -6,7 +6,7 @@
 <p align="left">
   <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo2.jpg" alt="Logo 1" width="48%">
   &nbsp; <!-- optional spacing -->
-  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo3.jpg" alt="Logo 2" width="48%">
+  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo3b.jpg" alt="Logo 2" width="48%">
 </p>
 
 
