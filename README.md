@@ -1,7 +1,6 @@
-🔭🐍 Fresh code - Royal Gamble Lite - unfolding novel drug spaces guided by the principles of star formation. ✨ 
-
 # 🔬 Welcome to the Chemoinformatics repository 
 
+🔭🐍 Fresh code - Royal Gamble Lite - unfolding novel drug spaces guided by the principles of star formation. ✨ 
 
 By blending stochastic principles with cheminformatics expertise, these Python scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made algorithms, designed for:
 
