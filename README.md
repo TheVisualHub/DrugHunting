@@ -6,7 +6,7 @@
 <p align="left">
   <img src="https://github.com/TheVisualHub/VisualFactory/blob/9dc339852cb99a4cdc06de4ee78ff6258fcedb83/assets/chemoinfo_logo2.jpg" alt="Logo 1" width="48%">
   &nbsp; <!-- optional spacing -->
-  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo3b.jpg" alt="Logo 2" width="48%">
+  <img src="https://github.com/TheVisualHub/VisualFactory/blob/9dc339852cb99a4cdc06de4ee78ff6258fcedb83/assets/chemoinfo_logo3.jpg" alt="Logo 2" width="48%">
 </p>
 
 
@@ -25,4 +25,4 @@ pip install rdkit
 # 🎲 Harnessing the Principles of Stochasticity
 
 The scripts for small molecule construction leverage a "Casino-style" approach that introduces controlled randomness into the selection of building blocks (e.g., chemical rings). This strategy mimics decision-making processes found in casino games, where calculated risks and conservative moves are balanced to optimize outcomes. A key feature is the inclusion of a "bluff" boost, an intentional injection of variability that breaks predictability and fosters random designs. This approach enables the exploration of novel chemical spaces by pushing beyond standard combinatorial methods, ultimately generating drug-like molecules with enhanced structural diversity.
- <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo4.jpg" alt="Logo 4" width="99%">
+ <img src="https://github.com/TheVisualHub/VisualFactory/blob/9dc339852cb99a4cdc06de4ee78ff6258fcedb83/assets/chemoinfo_logo4.jpg" alt="Logo 4" width="99%">
