@@ -4,7 +4,7 @@
 
 <!-- Chemoinfo Logo at 50% width -->
 <p align="left">
-  <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo2.jpg" alt="Logo 1" width="48%">
+  <img src="https://github.com/TheVisualHub/VisualFactory/blob/9dc339852cb99a4cdc06de4ee78ff6258fcedb83/assets/chemoinfo_logo2.jpg" alt="Logo 1" width="48%">
   &nbsp; <!-- optional spacing -->
   <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo3b.jpg" alt="Logo 2" width="48%">
 </p>
