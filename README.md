@@ -6,7 +6,7 @@
 <p align="left">
   <img src="https://github.com/TheVisualHub/VisualFactory/blob/9dc339852cb99a4cdc06de4ee78ff6258fcedb83/assets/chemoinfo_logo2.jpg" alt="Logo 1" width="48%">
   &nbsp; <!-- optional spacing -->
-  <img src="https://github.com/TheVisualHub/VisualFactory/blob/b516dc8d9e0e601d047655c80dde0a1ffd539dd3/assets/chemoinfo_logo3c.jpg" alt="Logo 2" width="48%">
+  <img src="https://github.com/TheVisualHub/VisualFactory/blob/074165f57427d5e8aeccf18d7f71e5b79b736301/assets/chemoinfo_logo3d.jpg" alt="Logo 2" width="48%">
 </p>
 
 
