@@ -2,12 +2,17 @@
 
 # 🔬 Welcome to the Chemoinformatics repository 
 
-This repository contains custom-made Python scripts, designed for:
+
+By blending stochastic principles with cheminformatics expertise, these scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made Python scripts, designed for:
 
 - 🔄 Molecular format conversion (example SMILES →  SDF or PDB) with **geometry optimization**  
--  💊 Designing drug-like molecules ready for docking and virtual screening
+- 💊 Designing drug-like molecules ready for docking and virtual screening
 
 Most scripts utilize the **RDKit** package — install it easily with:
 
 ```bash
 pip install rdkit
+
+
+🎲 Harnessing the Principles of Stochasticity
+The scripts for small molecule construction leverage a "Casino-style" approach that introduces controlled randomness into the selection of building blocks (e.g. chemical rings or functional groups). This innovative strategy mimics decision-making processes found in casino games, where calculated risks and conservative moves are balanced to optimize outcomes. A key feature is the inclusion of a "bluff" boost, an intentional injection of variability that breaks predictability and fosters creative, dynamic molecular designs. This approach enables the exploration of novel chemical spaces by subtly pushing beyond standard combinatorial methods, ultimately generating unique, drug-like molecules with enhanced structural diversity.
