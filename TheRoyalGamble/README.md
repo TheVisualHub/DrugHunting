@@ -3,7 +3,7 @@
 [![Watch the video](https://img.youtube.com/vi/rwLljmX3orI/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwLljmX3orI)
 
 <a href="https://www.youtube.com/watch?v=rwLljmX3orI">
-  <img src="https://img.youtube.com/vi/rwLljmX3orI/maxresdefault.jpg" style="transform: scale(1.05);">
+  <img src="https://img.youtube.com/vi/rwLljmX3orI/maxresdefault.jpg" style="transform: scale(1.2);">
 </a>
 
 
