@@ -25,3 +25,4 @@ pip install rdkit
 # 🎲 Harnessing the Principles of Stochasticity
 
 The scripts for small molecule construction leverage a "Casino-style" approach that introduces controlled randomness into the selection of building blocks (e.g., chemical rings). This strategy mimics decision-making processes found in casino games, where calculated risks and conservative moves are balanced to optimize outcomes. A key feature is the inclusion of a "bluff" boost, an intentional injection of variability that breaks predictability and fosters creative, dynamic molecular designs. This approach enables the exploration of novel chemical spaces by subtly pushing beyond standard combinatorial methods, ultimately generating unique, drug-like molecules with enhanced structural diversity.
+ <img src="https://github.com/TheVisualHub/logo-images/blob/main/chemoinfo_logo4.jpg" alt="Logo 4" width="100%">
