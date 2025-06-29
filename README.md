@@ -2,6 +2,10 @@
 
 🔭🐍 Fresh code - Royal Gamble Lite - unfolding novel drug spaces guided by the principles of star formation. ✨ 
 
+<!-- Chemoinfo Logo at 50% width -->
+<img src="https://raw.githubusercontent.com/TheVisualHub/logo-images/main/chemoinfo_logo.jpg" alt="Chemoinfo Logo" width="50%">
+
+
 By blending stochastic principles with cheminformatics expertise, these Python scripts empower researchers to discover and design molecules that are both scientifically rigorous and creatively inspired—ready for downstream applications like docking and virtual screening. This repository contains custom-made algorithms, designed for:
 
 🔄 Molecular format conversion (example SMILES →  SDF or PDB) with **geometry optimization**  
