@@ -3,7 +3,10 @@
 🎥 Click on the image to watch the demo:
 [![Watch the video](https://img.youtube.com/vi/gc762D6thsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=gc762D6thsg)
 
+##  🔍 Overview 
 🎲 The Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters. This is the Lite version of the code: streamlined and designed for fast exploration.
+
+---
 
 ## 👤 Author
 
