@@ -3,9 +3,13 @@
 🎥 Click on the image to watch the demo:
 [![Watch the video](https://img.youtube.com/vi/gc762D6thsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=gc762D6thsg)
 
-🎲 The Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters.
+🎲 The Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters. This is the Lite version of the code: streamlined and designed for fast exploration.
 
-This is the Lite version of the code: streamlined and designed for fast exploration.
+## 👤 Author
+
+This script was developed and benchmarked by **Gleb Novikov**
+
+---
 
 ## 🚀 Main Features
 
@@ -95,10 +99,7 @@ Each entry is fully 3D optimized with MMFF94s forcefield.
 
     You can manually extend with custom ring sets, custom linkers, or property scoring
 
-
-🧙 Author
-
-Created by Gleb Novikov
-Coded, conceptualized, and benchmarked in June 2025
-Not affiliated with any gambling platform 😉
+---
+👤 The Visual Hub (2025)  
+Hope you enjoy it ! 🧡 ✨
 
