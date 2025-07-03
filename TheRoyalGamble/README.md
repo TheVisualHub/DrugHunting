@@ -4,7 +4,14 @@
 [![Watch the video](https://img.youtube.com/vi/gc762D6thsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=gc762D6thsg)
 
 ##  🔍 Overview 
-🎲 The Royal Gamble Lite is a cheminformatics pipeline for crafting novel three-ring linear molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters. This is the Lite version of the code: streamlined and designed for fast exploration.
+🎲 **The Royal Gamble Lite** is an innovative cheminformatics pipeline designed for crafting novel molecules using controlled stochasticity. Inspired by the univeral principles of randomness — and a dash of casino bluffing — this cutting-edge approach generates combinatorial molecules with optional chiral centers, random ring assembly, and structural-based filters. Streamlined and designed for fast exploration:    
+1️⃣ Random assembly of chemical rings from **SMILES**, followed by **3D reconstruction** in **PDB** or **SDF** formats. Ready for docking!  
+2️⃣ **Bluff-spin algorithms** based on casino gaming to ramp up stochastic diversity.    
+3️⃣ Generation of relevant **protonation states** and **tautomers**.  
+4️⃣ Addition of **chiral linkers** to expand stereochemical possibilities.  
+5️⃣ Geometrical **optimization** of energetically favorable conformers.  
+6️⃣ Multiple **filtering strategies** seamlessly integrated with established medicinal chemistry guidelines.  
+7️⃣ **Industry-grade stability** — the code keeps crafting compounds even after a crash! 😁 
 
 ---
 
@@ -40,19 +47,37 @@ This script was developed and benchmarked by **Gleb Novikov**
 
 ## 🧬 What It Does
 
-This script generates a set of linear molecules with the three-ring pattern:
+➡️ The LITE version of the script generates a set of linear molecules with the three-ring pattern:
 
-🌀[RING 1] — 🔗[LINKER] — 🌀[RING 2] — 🔗[LINKER] — 🌀[RING 3]
+```🌀[RING 1] — 🔗[LINKER] — 🌀[RING 2] — 🔗[LINKER] — 🌀[RING 3]```
 
-Each molecule:
+➡️ The FULL version of the script generates a set of linear molecules with the N-ring pattern:
 
-    ⚙️ Is assembled from a ring SMILES pool
+```🌀[RING 1] — 🔗[LINKER] — 🌀[RING 2] — 🔗[LINKER] ... 🌀[RING N]```
 
-    🔀 Can include chiral centers based on settings
+🌟 and additionally star-shaped molecules with 4 or 5 rings:
 
-    🔍 Is filtered to eliminate duplicates or structurally boring outputs
+```
+         🌀[RING 4]
+            │
+🌀[RING 1]—🌀[RING 2]—🌀[RING 3]
+            │
+         🌀[RING 5]
+```
 
-### 🔧 Requirements
+
+
+In this way, each generated molecule:
+
+⚙️ Is assembled from a ring SMILES pool
+
+🔀 Can include chiral centers based on settings
+
+🔍 Is filtered to eliminate duplicates or structurally boring outputs
+
+---
+
+## 🔧 Requirements
 
     Python 3.7+
 
@@ -65,9 +90,13 @@ conda create -c rdkit -n rgamble_env rdkit python=3.9
 conda activate rgamble_env
 ```
 
-### ⚙️ Configuration
+---
 
-Customize behavior by editing variables at the top of the script:
+## ⚙️ Configuration
+
+### 🎛️ Main Control
+
+Customize all variables at the top of the script. The Full version iontroduces a dedicated DATACLASS for tailored control.
 
 ```bash
 project_name = "CASINO"
@@ -81,7 +110,7 @@ filtering_strategy = 2      # 1: no identical, 2: no adjacent duplicates, 3: all
 
 ### 🌀 Ring Pool
 
-Predefined set of 18 molecular rings, including:
+The LITE version has predefined set of 18 chemical rings, including:
 
     Aromatic: benzene, naphthalene, pyridine, etc.
 
