@@ -18,11 +18,14 @@ This script was developed and benchmarked by **Gleb Novikov**
 
 🎲 Stochastic ring assembly from a curated pool of aromatic and heterocyclic rings.
 
-♻️ Two ring-selection strategies:
+🛠️ The following ring-selection strategies are implemented:
 
-    1️⃣ Pure Randomness: unbiased random choice
+-  Pure Randomness: unbiased random choice
 
-    2️⃣ Bluff-Spin Selector: adds controlled bluff-function for combinatorial flair
+-  Bluff-Spin Selector: adds simple bluff-function for combinatorial flair
+    
+-  (only in FULL version): custom Bluff-Spin functions:  
+    🎰 simulating a weighted roulette spin over the pool of rings, assigning dynamic probabilities influenced by recent picks and structural diversity to avoid repetition in each sample. It then introduces a a controlled randomness layer that occasionally selects lower-probability rings, mimicking the unpredictability of a casino bluff —thereby introducing a trade-off between exploitation of high-probability candidates and exploration of under-sampled regions in the combinatorial search space. ⚖️ 
 
 🔗 Optional chiral carbon linkers
 
@@ -39,15 +42,15 @@ This script was developed and benchmarked by **Gleb Novikov**
 
 This script generates a set of linear molecules with the three-ring pattern:
 
-[RING 1] — [LINKER] — [RING 2] — [LINKER] — [RING 3]
+🌀[RING 1] — 🔗[LINKER] — 🌀[RING 2] — 🔗[LINKER] — 🌀[RING 3]
 
 Each molecule:
 
-    Is assembled from a ring SMILES pool
+    ⚙️ Is assembled from a ring SMILES pool
 
-    Can include chiral centers based on settings
+    🔀 Can include chiral centers based on settings
 
-    Is filtered to eliminate duplicates or structurally boring outputs
+    🔍 Is filtered to eliminate duplicates or structurally boring outputs
 
 ### 🔧 Requirements
 
