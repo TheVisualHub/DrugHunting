@@ -101,13 +101,13 @@ This function applies one of three filtering strategies to exclude molecules wit
 result = ("mol1", ["c1ccccc1", "c1ccccc1", "C1CCCCC1"])
 
 # Strategy 1: Only discard if all rings are identical
-filter_identical_rings(result, strategy=1)  # Returns: True
+filter_identical_rings(result, strategy=1)
 
 # Strategy 2: Discard if ring1 == ring2 or ring2 == ring3
-filter_identical_rings(result, strategy=2)  # Returns: False
+filter_identical_rings(result, strategy=2)
 
 # Strategy 3: Keep only if all three are different
-filter_identical_rings(result, strategy=3)  # Returns: True
+filter_identical_rings(result, strategy=3)
 ```
 
 ---
