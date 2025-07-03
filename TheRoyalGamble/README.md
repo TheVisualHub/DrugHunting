@@ -1,6 +1,6 @@
 # 🎰 Designing drug-like molecules using combinatorics inspired by casino models to unfold novel chemical spaces 💊  
 
-🎥 Click on the image to watch the demo:
+🎥 Click on the image to watch the demonstration:
 [![Watch the video](https://img.youtube.com/vi/gc762D6thsg/maxresdefault.jpg)](https://www.youtube.com/watch?v=gc762D6thsg)
 
 ##  🔍 Overview 
@@ -16,25 +16,28 @@ This script was developed and benchmarked by **Gleb Novikov**
 
 ## 🚀 Main Features
 
-    🎲 Stochastic ring assembly from a curated pool of aromatic and heterocyclic rings.
+🎲 Stochastic ring assembly from a curated pool of aromatic and heterocyclic rings.
 
-    ♻️ Two ring-selection strategies:
+♻️ Two ring-selection strategies:
 
-        Pure Random: unbiased random choice
+    1️⃣ Pure Randomness: unbiased random choice
 
-        Bluff-Spin Selector: adds controlled pseudo-randomness for combinatorial flair
+    2️⃣ Bluff-Spin Selector: adds controlled bluff-function for combinatorial flair
 
-    💫 Optional chiral carbon linkers
+🔗 Optional chiral carbon linkers
 
-    🧹 Filter strategies to remove redundant structures (e.g., identical or adjacent rings)
+🔍 Filter strategies to remove redundant structures (e.g., identical or adjacent rings)
 
-    🧪 MMFF94s optimization (via RDKit)
+🧲 MMFF94s optimization (via RDKit)
 
-    🗂️ SDF multi-model output with timestamped filenames
+🗂️ SDF multi-model output with timestamped filenames
 
-🧬 What It Does
+---
 
-This script generates a set of molecules with the general form:
+
+## 🧬 What It Does
+
+This script generates a set of linear molecules with the three-ring pattern:
 
 [RING 1] — [LINKER] — [RING 2] — [LINKER] — [RING 3]
 
@@ -46,7 +49,7 @@ Each molecule:
 
     Is filtered to eliminate duplicates or structurally boring outputs
 
-🔧 Requirements
+### 🔧 Requirements
 
     Python 3.7+
 
@@ -54,13 +57,16 @@ Each molecule:
 
 Install RDKit via Conda:
 
+```bash
 conda create -c rdkit -n rgamble_env rdkit python=3.9
 conda activate rgamble_env
+```
 
-⚙️ Configuration
+### ⚙️ Configuration
 
 Customize behavior by editing variables at the top of the script:
 
+```bash
 project_name = "CASINO"
 number_of_structures = 18
 chiral_switch = 1           # 0: off, 1–2: add chiral linkers
@@ -68,8 +74,9 @@ optimize_iters = 5000       # for accurate geometry
 casino_switch = True        # activate Bluff-Spin selector
 filter_identical = True
 filtering_strategy = 2      # 1: no identical, 2: no adjacent duplicates, 3: all unique
+```
 
-🌀 Ring Pool
+### 🌀 Ring Pool
 
 Predefined set of 18 molecular rings, including:
 
@@ -79,20 +86,24 @@ Predefined set of 18 molecular rings, including:
 
     Heterocycles: imidazole, pyrrolidine, piperidine, oxetane, THF
 
+```bash
 ring_smiles = [
   ("c1ccccc1", "benzene"),
   ("C1CCCCC1", "cyclohexane"),
   ...
 ]
+```
 
-📂 Output
+### 📂 Output
 
-Generates a multi-model .sdf file:
+**Generates a multi-model .sdf file:**
 
-CASINO_18062025_1420.sdf
+```bash
+CASINO_{timestamp}.sdf
+```
 
 Each entry is fully 3D optimized with MMFF94s forcefield.
-🧠 Behind the Scenes
+###  🧠 Behind the Scenes
 
     Ring selection is controlled via Python’s random and optionally modified by a bluff_spin() logic (mimicking gambling decisions).
 
