@@ -137,13 +137,15 @@ CASINO_{timestamp}.sdf
 Each entry is fully 3D optimized with MMFF94s forcefield.
 ###  🧠 Behind the Scenes
 
-    Ring selection is controlled via Python’s random and optionally modified by a bluff_spin() logic (mimicking gambling decisions).
+By combining unmatched stochastic algorithms with physics-driven optimization and advanced medicinal chemistry filters, this tool generates more diverse, innovative molecules while ensuring reliability and seamless workflow integration — reshaping the frontiers of modern drug discovery!
 
-    Molecules are connected using RDKit molecule constructors
+- Ring selection is controlled via Python’s random and optionally modified by a bluff_spin() logic (mimicking gambling decisions).
 
-    Filters remove boring, redundant, or chemically trivial outputs
+- Molecules are connected using RDKit molecule constructors
 
-    You can manually extend with custom ring sets, custom linkers, or property scoring
+- Filters remove redundant crafts, or chemically trivial outputs
+
+- You can manually extend with custom ring sets, linkers, or direct output to your scoring functions for ultimate flexibility
 
 ---
 👤 The Visual Hub (2025)  
