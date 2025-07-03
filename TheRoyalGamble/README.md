@@ -76,6 +76,41 @@ In this way, each generated molecule:
 🔍 Is filtered to eliminate duplicates or structurally boring outputs
 
 ---
+## ⚗️ Filtering Strategies
+
+```
+def filter_identical_rings(result, strategy=2):
+```
+This function applies one of three filtering strategies to exclude molecules with repeating ring structures. It assumes that the molecule's ring information is represented by a list of three SMILES strings, and it evaluates their uniqueness based on the selected strategy. The function is useful for chemical molecule generation tasks, where diversity of ring systems is desired in the output.
+
+**Parameters**
+
+⏩ result (tuple): A result object, where the second element (result[1]) is expected to be a list of three SMILES strings representing chemical rings.
+
+⏩ strategy (int, optional): The filtering strategy to apply. Default is 2.
+
+    1️⃣: Keep the molecule unless all three rings are identical.
+
+    2️⃣: Discard the molecule if ring1 == ring2 or ring2 == ring3. (default)
+
+    3️⃣: Keep the molecule only if all three rings are unique.
+
+**Examples:**
+
+```
+result = ("mol1", ["c1ccccc1", "c1ccccc1", "C1CCCCC1"])
+
+# Strategy 1: Only discard if all rings are identical
+filter_identical_rings(result, strategy=1)  # Returns: True
+
+# Strategy 2: Discard if ring1 == ring2 or ring2 == ring3
+filter_identical_rings(result, strategy=2)  # Returns: False
+
+# Strategy 3: Keep only if all three are different
+filter_identical_rings(result, strategy=3)  # Returns: True
+```
+
+---
 
 ## 🔧 Requirements
 
@@ -135,17 +170,13 @@ CASINO_{timestamp}.sdf
 ```
 
 Each entry is fully 3D optimized with MMFF94s forcefield.
-###  🧠 Behind the Scenes
+###  🦋✨ Behind the Scene: directing 𝐂𝐇𝐀𝐎𝐒 towards the creation of 𝗻𝗲𝘄 𝗱𝗿𝘂𝗴𝘀 
 
-By combining unmatched stochastic algorithms with physics-driven optimization and advanced medicinal chemistry filters, this tool generates more diverse, innovative molecules while ensuring reliability and seamless workflow integration — reshaping the frontiers of modern drug discovery!
+Leveraging combinatorial algorithms inspired by casino gaming enables the stochastic sampling of chemical space, circumventing biases inherent in deterministic design. These approaches increase the likelihood of identifying novel compounds with unique structural motifs, accelerating the discovery of innovative molecules beyond traditional combinatorial limits. By combining unmatched stochastic algorithms with physics-driven optimization and advanced medicinal chemistry filters, this tool generates more diverse, innovative molecules while ensuring reliability and seamless workflow integration — reshaping the frontiers of modern drug discovery!
 
-- Ring selection is controlled via Python’s random and optionally modified by a bluff_spin() logic (mimicking gambling decisions).
-
-- Molecules are connected using RDKit molecule constructors
-
-- Filters remove redundant crafts, or chemically trivial outputs
-
-- You can manually extend with custom ring sets, linkers, or direct output to your scoring functions for ultimate flexibility
+<p align="center">
+  <img src="https://github.com/TheVisualHub/VisualFactory/blob/0baa168274930931b599cf41343add5eff1974b7/assets/royalgamble_logo1.jpeg?raw=true" alt="Royal Gamble Logo"/>
+</p>
 
 ---
 👤 The Visual Hub (2025)  
