@@ -163,13 +163,12 @@ ring_smiles = [
 
 ### 📂 Output
 
-**Generates a multi-model .sdf file:**
+As the result of execution the script generates a multi-model .sdf file containing all created molecules, alongside individual .pdb files for each structure—fully prepared and optimized for docking studies. Every molecule entry in both formats is meticulously 3D-optimized using the MMFF94s force field to ensure accurate geometry and reliable modeling results.
 
 ```bash
 CASINO_{timestamp}.sdf
 ```
 
-Each entry is fully 3D optimized with MMFF94s forcefield.
 ###  🦋✨ Behind the Scene: directing 𝐂𝐇𝐀𝐎𝐒 towards the creation of 𝗻𝗲𝘄 𝗱𝗿𝘂𝗴𝘀 
 
 Leveraging combinatorial algorithms inspired by casino gaming enables the stochastic sampling of chemical space, circumventing biases inherent in deterministic design. These approaches increase the likelihood of identifying novel compounds with unique structural motifs, accelerating the discovery of innovative molecules beyond traditional combinatorial limits. By combining unmatched stochastic algorithms with physics-driven optimization and advanced medicinal chemistry filters, this tool generates more diverse, innovative molecules while ensuring reliability and seamless workflow integration — reshaping the frontiers of modern drug discovery!
