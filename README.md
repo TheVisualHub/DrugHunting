@@ -1,4 +1,4 @@
-# 🔬 Welcome to the Chemoinformatics repository 
+# 💊 Welcome to the Drug Hunting repository 
 
 🔭🐍 Fresh code - Royal Gamble Lite - unfolding novel drug spaces guided by the principles of star formation. ✨ 
 
